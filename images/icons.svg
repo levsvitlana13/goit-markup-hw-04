@@ -1,0 +1,19 @@
+<svg xmlns="www.w3.org" style="display: none;">
+
+  <symbol id="icon-strategy" viewBox="0 0 70 70">
+    <!-- Сюди ми вставимо код з твого файлу Strategy.svg -->
+  </symbol>
+
+  <symbol id="icon-punctuality" viewBox="0 0 70 70">
+    <!-- Сюди з Punctuality.svg -->
+  </symbol>
+
+  <symbol id="icon-diligence" viewBox="0 0 70 70">
+    <!-- Сюди з Diligence.svg -->
+  </symbol>
+
+  <symbol id="icon-technologies" viewBox="0 0 70 70">
+    <!-- Сюди з Technologies.svg -->
+  </symbol>
+
+</svg>
