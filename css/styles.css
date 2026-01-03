@@ -117,9 +117,18 @@ address {
 /* hero */
 
 .hero {
-  background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
   text-align: center;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/people-office\ 1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-container {
@@ -208,7 +217,13 @@ address {
 
 .light {
   background-color: #f4f4fd;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 120px 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .light h2 {
@@ -301,25 +316,36 @@ address {
 
 footer {
   background-color: #2e2f42;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 100px 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .footer-container {
   display: flex;
-  flex-direction: column;
+  gap: 120px;
+  align-items: baseline;
 }
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.footer-logo-social {
+  display: block;
+  margin-bottom: 16px;
+}
 .footer-social {
   max-width: 96px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 .footer-text {
   max-width: 264px;
@@ -327,6 +353,9 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.footer-text-social {
+  display: block;
 }
 
 h2 {
